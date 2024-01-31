@@ -1,6 +1,4 @@
 <h1>PORTFOLIO - Website</h1>
-<h1> Portfolio </h1>
-PORTFOLIO-website
 "PORTFOLIO"
 "Best portfolio websites to fuel your inspiration."
 
@@ -60,6 +58,6 @@ Azure Storage Account: Azure Storage Account is a foundational component in Micr
 <img src="https://github.com/rishikesh16/Portfolio/blob/main/project%20live%202.png?raw=true" alt="image"/>
 <img src="https://github.com/rishikesh16/Portfolio/blob/main/project%20live%203.png?raw=true" alt="image"/>
 <h3>CHATBOT</h3>
-<img src="https://github.com/rishikesh16/Portfolio/blob/main/chatbot.png?raw=true" alt="image"/>
+<img src="https://github.com/rishikesh16/Portfolio/blob/main/chatbot%202.png?raw=true" alt="image"/>
 <h1> FINAL PROJECT STATEMENT: </h1>
 A portfolio is for publishing your most compelling work samples as a valuable promotional tool that can expand your professional opportunities.
