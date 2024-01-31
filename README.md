@@ -46,7 +46,7 @@ Azure Storage Account: Azure Storage Account is a foundational component in Micr
    Azure Backup Service: Azure Backup Service by Microsoft safeguards critical data in the Azure cloud. It offers automated and scalable backup solutions for virtual machines, applications, and files. With features like long-term retention and geo-redundancy, it ensures data resilience and facilitates efficient disaster recovery, enhancing overall data protection strategies.<br>
 
 <h1> SCREENSHOTS</h1>
-< img src="https://github.com/rishikesh16/Portfolio/blob/main/Azure%20AI%20services.png?raw=true">
+< img src=""
 
 <h1> FINAL PROJECT STATEMENT: </h1>
 A portfolio is for publishing your most compelling work samples as a valuable promotional tool that can expand your professional opportunities.
