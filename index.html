@@ -191,7 +191,7 @@
                             <h4 class="card-title">YouTube Clone</h4>
                             <p class="card-text">Lipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -204,7 +204,7 @@
                             <h4 class="card-title">Quiz App</h4>
                             <p class="card-text">Lipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -217,7 +217,7 @@
                             <h4 class="card-title">Product Landing Page</h4>
                             <p class="card-text">Lipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -232,7 +232,7 @@
                             <h4 class="card-title">Messaging Service</h4>
                             <p class="card-text">Lipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -245,7 +245,7 @@
                             <h4 class="card-title">Twitter Clone</h4>
                             <p class="card-text">Lipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -258,7 +258,7 @@
                             <h4 class="card-title">Blog App</h4>
                             <p class="card-text">Lipsum is simply dummy text of the printing and typesetting industry.</p>
                             <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
+                                
                             </div>
                         </div>
                     </div>
@@ -287,17 +287,31 @@
 
                 <div class="col-lg-6">
                     
-                    <form>
-                        <input type="text" class="form-control form-control-lg" placeholder="Name">
-                        <input type="email" class="form-control mt-3" placeholder="Email">
-                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                    <form onsubmit="onContactMe(event)">
+                        <input type="text" id="name" required="" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" id="email" required="" class="form-control mt-3" placeholder="Email">
+                        <input type="text" id="subject" required="" class="form-control mt-3" placeholder="Subject">
                         <div class="mb-3 mt-3">
-                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                            <textarea class="form-control" rows="5" required="" id="comment" name="text" placeholder="Project Details"></textarea>
                         </div>
+                        <button type="submit" class="btn btn-success mt-3" >Contact Me</button>
                     </form>
-                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
                     
                 </div>
+
+                <script>
+                    function onContactMe(event){
+                        event.preventDefault()
+                        let nam = document.getElementById("name").value;
+                        let email = document.getElementById("email").value;
+                        let subject = document.getElementById("subject").value;
+                        let comment = document.getElementById("comment").value;
+
+                        if (nam.length !== 0 && email.length !== 0 && subject.length !== 0 && comment.length !== 0 && email.includes("@gmail.com")){
+                            alert("Thank you. I will call you later!")
+                        }
+                    } 
+                </script>
 
             </div>
         </div>
