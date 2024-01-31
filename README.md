@@ -52,6 +52,10 @@ Azure Storage Account: Azure Storage Account is a foundational component in Micr
 <img src="https://github.com/rishikesh16/Portfolio/blob/main/Azure%20AI%20services.png?raw=true" alt="image"/>
 <h3>RESOURCE GROUP</h3>
 <img src="https://github.com/rishikesh16/Portfolio/blob/main/Resources%20group.png?raw=true" alt="image"/>
+<h3>CONTAINER</h3>
+<img src="https://github.com/rishikesh16/Portfolio/blob/main/container.png?raw=true" alt="image"/>
+<h3>BLOB STORAGE</h3>
+<img src="https://github.com/rishikesh16/Portfolio/blob/main/blob.png?raw=true" alt="image"/>
 <h3>PROJECT LIVE IMAGES</h3>
 <img src="https://github.com/rishikesh16/Portfolio/blob/main/Project%20live.png?raw=true" alt="image"/>
 <<img src="https://github.com/rishikesh16/Portfolio/blob/main/project%20live%201.png?raw=true" alt="image"/>
